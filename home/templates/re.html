@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% load staticfiles %}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Research Funding Module</title>
+    <style>
+    body{
+        background : url("https://image.freepik.com/free-vector/abstract-blue-background_1048-1511.jpg");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        padding-top:6%;
+    }
+    .p1{
+        height:100%;
+        text-align:center;
+        width:80%;
+        margin-left:10%;
+        background:rgba(0,0,0,.6);
+        padding:1%;
+        padding-top:2%;
+        color:white;
+    }
+    .imge1{
+        width:100%;
+    }
+
+    .par{
+        color:white;
+        text-align:center;
+        font-size:230%;
+        line-height:100%;
+        font-family:'Pacifico',cursive;
+        position:relative;
+        z-index:0;
+    }
+    .col-xs-6{
+        margin-bottom:5%;
+    }
+@media screen and (max-width:720px) {
+    .col-xs-6{
+        width:100%;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div class="par">
+        Research Funding Module
+    </div><br><br>
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="p1">
+                <img src="{% static 'images/re1.jpg' %}"  alt="tour" class="imge1 image-responsive" />
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="p1">
+                <img src="{% static 'images/re2.png' %}"  alt="tour" class="imge1 image-responsive" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="p1">
+                <img src="{% static 'images/re3.png' %}"  alt="tour" class="imge1 image-responsive" />
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="p1">
+                <img src="{% static 'images/re4.png' %}"  alt="tour" class="imge1 image-responsive" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="p1">
+                <img src="{% static 'images/re6.png' %}"  alt="tour" class="imge1 image-responsive" />
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="p1">
+                <img src="{% static 'images/re7.png' %}"  alt="tour" class="imge1 image-responsive" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
